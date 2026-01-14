@@ -1,0 +1,34 @@
+# 1. Dependencies (hasil dari yarn install)
+node_modules
+
+# 2. Environment variables (private key, API key)
+.env
+
+# 3. Hardhat build output
+cache
+artifacts
+
+# 4. OS files
+.DS_Store
+
+# 5. IDE / Editor config
+node_modules
+.env
+
+# Hardhat files
+/cache
+/artifacts
+
+# TypeChain files
+/typechain
+/typechain-types
+
+# solidity-coverage files
+/coverage
+/coverage.json
+
+# Hardhat Ignition default folder for deployments against a local node
+ignition/deployments/chain-31337
+
+.vscode
+.idea
